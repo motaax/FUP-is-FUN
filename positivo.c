@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Digite um numero inteiro: \n");
+    scanf("%d", &num);
+
+    if (num >= 0) {
+        printf("SIM \n");
+    } else {
+        printf("NAO \n");
+    }
+
+    return 0;
+}
